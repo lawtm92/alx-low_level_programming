@@ -1,23 +1,21 @@
 #include <stdio.h>
-/*
-*C program to print all upper case and lower case alphabets.
+/**
+*main - print alphabets in lower case then, upper case follow by a new line
 *Return: 0
 */
-int main()
+int main(void)
 {
-	char i, j;
+	char i;
+	char j;
 
-	for (i='a'; i <= 'z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 	putchar(i);
 	}
-	for (j='A'; i <= 'Z'; i++)
+	for (j = 'A'; j <= 'Z'; j++)
 	{
 	putchar(j);
 	}
 	putchar('\n');
-	return 0;
-
+	return (0);
 }
-
-
