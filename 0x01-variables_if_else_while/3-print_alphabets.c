@@ -1,20 +1,19 @@
 #include <stdio.h>
-/**
-*main - alphABET
-*Return: Returns 0
+/*
+*C program to print all upper case and lower case alphabets.
+*Return: 0
 */
-int main(void)
+int main()
 {
-	char i;
-	char j;
+	putchar i;
 
-	for (i = 'a'; i <= 'z'; i++)
-	{
-	putchar(i);
-	}
-	for (j = 'A'; j <= 'Z'; j++)
-	{
-	putchar(j);
-	}
-	putchar('\n');
+	putchar("Capital (upper) and lower case characters:\n");
+	for (i='A'; i<='Z'; i++)
+	putchar("%c ",i);
+	for (i='a'; i<='z'; i++)
+	putchar("%c ",i);
 	return (0);
+
+}
+
+
