@@ -5,31 +5,21 @@
 **/
 int main(void)
 {
-	int i, k = '0', j;
+	int digit1;
+	int digit2;
 
-	for (i = '0'; i <= '9'; i++)
+	for (digit1 = 0; digit1 < 10; digit1++)
 	{
-	for (j = k; j <= '9'; j++)
+	for (digit2 = 0; digit2 < 10; digit2++)
 	{
-	if (i != j)
-	putchar(i);
-	putchar(j);
-	}
-	if (i == j)
-	{
-	continue
-	}
-	if (i == '8' && j == '9')
-	{
-	break;
-	}
-	else
-	{
+	putchar((digit1 % 10) + '0');
+	putchar((digit2 % 10) + '0');
+	if (digit1 == 9 && digit2 == 9)
+	continue;
 	putchar(',');
-	putchar('');
+	putchar(' ');
 	}
-	k++;
-}
+	}
 	putchar('\n');
-	retturn (0);
+	return (0);
 }
