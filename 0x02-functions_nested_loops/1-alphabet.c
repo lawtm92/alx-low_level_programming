@@ -2,8 +2,7 @@
 /**
 *1-alphabet.c - print alpabets in lower case
 */
-
-void print_alphabet(void)
+int main(void)
 {
 	char letter;
 
