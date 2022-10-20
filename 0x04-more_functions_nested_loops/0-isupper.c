@@ -6,14 +6,14 @@
 */
 int _isupper(int c)
 {
-char uppercase = 'a';
+char uppercase = 'A';
 int isupper = 0;
 
-for (; uppercase <= 'A'; uppercase++)
+for (; uppercase <= 'Z'; uppercase++)
 {
 if (c == uppercase)
 {
-ispper = 1;
+isupper = 1;
 break;
 }
 }
