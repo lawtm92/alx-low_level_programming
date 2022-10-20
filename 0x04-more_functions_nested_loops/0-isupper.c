@@ -6,9 +6,10 @@
 */
 int _isupper(int c)
 {
-char uppercase = 'A';
+char uppercase = 'a';
 int isupper = 0;
-for (; uppercase <= 'Z'; uppercase++)
+
+for (; uppercase <= 'A'; uppercase++)
 {
 if (c == uppercase)
 {
