@@ -18,7 +18,7 @@ else
 print_integer(n);
 }
 /**
-*print_integer - A function to priting n
+*print_integer - A function to priting m
 *@m: an input unsigned integer
 *Return: Nothing
  */
