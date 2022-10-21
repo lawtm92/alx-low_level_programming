@@ -21,7 +21,7 @@ print_integer(n);
 *print_integer - A function to priting m
 *@m: an input unsigned integer
 *Return: Nothing
- */
+*/
 void print_integer(int m)
 {
 int i = 1000000000;
