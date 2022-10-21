@@ -3,6 +3,7 @@ void print_integer(int m);
 /**
 *print_number - a function that prints an integer.
 *@n: An input integer
+*Return: Nothing
 */
 void print_number(int n)
 {
@@ -19,7 +20,8 @@ print_integer(n);
 /**
 *print_integer - A function to priting n
 *@m: an input unsigned integer
-*/
+*Return: Nothing
+ */
 void print_integer(int m)
 {
 int i = 1000000000;
