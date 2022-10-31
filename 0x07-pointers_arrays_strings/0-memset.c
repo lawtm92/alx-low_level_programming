@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*_memset - write a function that fill memory with constant value
+*_memset - fills memory with a constant by
 *@s: pointer to memory area to fill
-*@b: constant byte
 *@n: number of bytes to be fill
+*@b: constant byte
 *Return: a pointer to the memory area @s
 */
 char *_memset(char *s, char b, unsigned int n)
