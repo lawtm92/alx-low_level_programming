@@ -3,9 +3,9 @@
 #include <stdlib>
 /**
 *main - multiplies two numbers
-*@argc: number of command line arguments.
-*@argv: array that contains the program command line arguments.
-*Return: 0 - success.
+*@argc: argument vector
+*@argv: argument vector.
+*Return:  0 if it works, 1 if there is an ERROR
 */
 int main(int argc, char *argv[])
 {
